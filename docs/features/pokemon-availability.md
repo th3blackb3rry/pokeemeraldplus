@@ -44,12 +44,32 @@ This feature will focus on:
 ---
 
 ## 🧠 Notes
-10/21/25 - Pre-Badge 1 Wild Encounter Changes
+10/21/25 - Pre-Badge 1 Wilds
 files: src/data/wild_encounters.json
 - Route 101 - Land: Zigzagoon 45%, Wurmple 45%, Poochyena 10%
-- Route 103 - Land: Zigzagoon 60%, Poochyena 20%, Wingull 20%; Fishing: good rod levels maxs at 25
-- Route 102 - Land: Zigzagoon 20%, Wurmple 20%, Seedot 20%, Lotad 20%, Poochyena 10%, Ralts 5%, Surskit 5%; Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fishing: good rod levels maxs at 25
-- Petalburg City - Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fishing: good rod levels maxs at 25
-- Route 104 - Land: Zigzagoon 40%, Wurmple 20%, Marill 20%, Taillow 10%, Wingull 10%; Fishing: good rod levels maxs at 25
+- Route 103 - Land: Zigzagoon 60%, Poochyena 20%, Wingull 20%; Fish: good rod levels maxs at 25
+- Route 102 - Land: Zigzagoon 20%, Wurmple 20%, Seedot 20%, Lotad 20%, Poochyena 10%, Ralts 5%, Surskit 5%; Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fis: good rod levels maxs at 25
+- Petalburg City - Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fish: good rod levels maxs at 25
+- Route 104 - Land: Zigzagoon 40%, Wurmple 20%, Marill 20%, Taillow 10%, Wingull 10%; Fish: good rod levels maxs at 25
 - Route 116 - Land: Zigzagoon 20%, Whismur 20%, Nincada 20%, Taillow 20%, Abra 15%, Skitty 5%
 - Rusturf Tunnel - Land: Whismur 50%, Geodude 25%, Zubat 25%
+
+10/21/25 - commit made
+files: src/data/wild_encounters.json
+- pre-badge 1 wilds
+
+10/22/25 - Pre-Badge 2 Wilds
+- Route 105 - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+- Route 106 - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+- Dewford Town - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+- Granite Cave 1F - Land: Makuhita 40%, Zubat 30%, Geodude 20%, Abra 10%
+- Granite Cave BF2 - Rock Smash: Encounter rate now 40%
+- Route 107 - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+- Route 108 - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+- Route 109 - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+- Slateport City - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+- Route 110 - Land: Zigzagoon 20%, Electrike 20%, Gulpin 15%, Minun 15%, Wingull 10%, Oddish 10%, Plusle 5%, Voltorb 5%; Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+
+10/22/25 - commit made
+files: src/data/wild_encounters.json
+- pre-badge 2 wilds
