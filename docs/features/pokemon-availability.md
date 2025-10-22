@@ -73,3 +73,10 @@ files: src/data/wild_encounters.json
 10/22/25 - commit made
 files: src/data/wild_encounters.json
 - pre-badge 2 wilds
+
+10/22/25 - Pre-Badge 3 Wilds
+files: src/data/wild_encounters.json
+- Route 117 - Land: Zigzagoon 30%, Roselia 20%, Illumise 20%, Oddish 10%, Marill 10%, Volbeat 5%, Surskit 5%; Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fish: good rod levels max at 25
+- Route 118 - Land: Linoone 30%, Manectric 30%, Wingull 18%, Zigzagoon 10%, Electrike 10%, Kecleon 2%; Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25; Good Rod now on west shore of route
+- Route 111 - Land: Trapinch 35%, Sandshrew 20%, Cacnea 20%, Baltoy 15%, Sandslash 10%; Rock Smash: Geodude 90%, Graveler 10%; Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fish: good rod levels max at 25
+- Dewford Cave BF2 - Rock Smash: Geodude 60%, Nosepass 30%, Graveler 10%;
