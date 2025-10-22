@@ -50,6 +50,4 @@ Each major feature will get its own branch:
 ---
 
 ## 🧠 Notes
-- Keep track of all file edits here before making commits.
-- Try to make each feature modular and isolated on its own branch.
-- Always test builds before merging back into `master`.
+- 10/21/25 - Merged the Pokemon Rebalance branch into Master, see /docs/feature/pokemon-reblance.md for details
