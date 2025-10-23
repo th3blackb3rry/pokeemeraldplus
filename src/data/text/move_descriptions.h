@@ -58,7 +58,7 @@ static const u8 sSwordsDanceDescription[] = _(
     "sharply raises ATTACK.");
 
 static const u8 sCutDescription[] = _(
-    "Cuts sharp claws, etc. Has\n"
+    "Cuts with claws, etc. Has\n"
     "a high critical-hit ratio");
 
 static const u8 sGustDescription[] = _(

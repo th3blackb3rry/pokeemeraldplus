@@ -80,3 +80,47 @@ files: src/data/wild_encounters.json
 - Route 118 - Land: Linoone 30%, Manectric 30%, Wingull 18%, Zigzagoon 10%, Electrike 10%, Kecleon 2%; Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25; Good Rod now on west shore of route
 - Route 111 - Land: Trapinch 35%, Sandshrew 20%, Cacnea 20%, Baltoy 15%, Sandslash 10%; Rock Smash: Geodude 90%, Graveler 10%; Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fish: good rod levels max at 25
 - Dewford Cave BF2 - Rock Smash: Geodude 60%, Nosepass 30%, Graveler 10%;
+
+10/22/25 - commit made
+files: src/data/wild_encounters.json
+- pre-badge 3 wilds
+
+10/22/25 - Pre-Badge 4 Wilds
+files: src/data/wild_encounters.json
+- Petalburg Woods - Land: Wurmple 25%, Zigzagoon 20%, Shroomish 15%, Taillow 15%, Silcoon 10%, Cascoon 10%, Slakoth 5%
+- Route 112 - Land: Numel 40%, Machop 20%, Sandshrew 20%, Taillow 10%, Meditite 10%; Rock Smash*: Geodude 60%, Slugma 30%, Graveler 10%; *Rock Smash mons newly added
+- Fiery Patth - Land: Numel 40%, Koffing 30%, Machop 20%, Torkoal 10%; Rock Smash*: Geodude 60%, Slugma 30%, Graveler 10%; *Rock Smash mons newly added
+- Route 113 - Land: Spinda 70%, Sandshrew 25%, Skarmory 5%
+- Route 114 - Land: Swablu 40%, Lombre 20%, Nuzleaf 20%, Seviper 15%, Surskit 5%; Rock Smash*: Geodude 90%, Graveler 10%; Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fish: good rod levels max at 25; *increased encounter rate for Rock Smash
+- Meteor Falls 1F 1R: Land: Zubat 30%, Geodude 20%, Solrock 20%, Mawile 15%, Kadabra 10%, Lunatone 5%; Surf: Zubat 90%, Solrock 5%, Lunatone 5%; Fish: good rod levels max at 25
+- Route 115 - Swablu 30%, Swellow 20%, Wingull 15%, Zangoose 15%, Taillow 10%, Jigglypuff 10%; Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: good rod levels max at 25
+- Jagged Pass - Land: Numel 45%, Machop 25%, Spoink 20%, Meditite 10%
+- Granite Cave BF2 - increased rock smash encounter rate
+
+10/23/25 - Bug Fixes
+files: src/data/text/item_descriptions.h
+       src/data/text/move_descriptions.h
+- fixed typos
+files: src/pokemon_summary_screen.c
+- all moves can be replaced when learning new moves
+files: graphics/items/icon_palettes/bug_tm_hm.pal - file added
+       include/graphics.h
+       src/data/graphics/items.h
+       src/data/item_icon_table.h
+- set HM01 Cut to have bug-type icon color
+
+10/2X/25 - commit made
+files: src/data/wild_encounters.json
+       src/data/text/item_descriptions.h
+       src/data/text/move_descriptions.h
+       graphics/items/icon_palettes/bug_tm_hm.pal - file added
+       include/graphics.h
+       src/data/graphics/items.h
+       src/data/item_icon_table.h
+- pre-badge 4 wilds
+- fixed typos
+- can delete HM moves
+- set bug-type palette for HM01 Cut icon
+
+10/2X/25 - Pre-Badge 6 Wilds
+files: src/data/wild_encounters.json

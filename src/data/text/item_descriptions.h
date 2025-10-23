@@ -1369,9 +1369,9 @@ static const u8 sTM50Desc[] = _(
 
 
 static const u8 sHM01Desc[] = _(
-    "Attacks the foe\n"
-    "with sharp blades\n"
-    "or claws.");
+    "Attacks with\n"
+    "claws and has\n"
+    "high crit ratio.");
 
 static const u8 sHM02Desc[] = _(
     "Flies up on the\n"
@@ -1399,9 +1399,9 @@ static const u8 sHM06Desc[] = _(
     "may lower DEFENSE.");
 
 static const u8 sHM07Desc[] = _(
-    "Attacks the foe\n"
-    "with enough power\n"
-    "to climb waterfalls.");
+    "Charges up a\n"
+    "waterfall and\n"
+    "may cause flinch.");
 
 static const u8 sHM08Desc[] = _(
     "Dives underwater\n"
