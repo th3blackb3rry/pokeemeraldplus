@@ -27,11 +27,10 @@ This feature will focus on:
 ---
 
 ## ✅ To-Do
-- [ ] Pre-Badge 1 Wild Encounter Changes
-- [ ] Pre-Badge 2 Wild Encounter Changes
-- [ ] Pre-Badge 3 Wild Encounter Changes
-- [ ] Pre-Badge 4 Wild Encounter Changes
-- [ ] Pre-Badge 5 Wild Encounter Changes
+- [X] Pre-Badge 1 Wild Encounter Changes
+- [X] Pre-Badge 2 Wild Encounter Changes
+- [X] Pre-Badge 3 Wild Encounter Changes
+- [X] Pre-Badge 4 Wild Encounter Changes
 - [ ] Pre-Badge 6 Wild Encounter Changes
 - [ ] Pre-Badge 7 Wild Encounter Changes
 - [ ] Pre-Badge 8 Wild Encounter Changes
@@ -109,7 +108,7 @@ files: graphics/items/icon_palettes/bug_tm_hm.pal - file added
        src/data/item_icon_table.h
 - set HM01 Cut to have bug-type icon color
 
-10/2X/25 - commit made
+10/23/25 - commit made
 files: src/data/wild_encounters.json
        src/data/text/item_descriptions.h
        src/data/text/move_descriptions.h
@@ -124,3 +123,20 @@ files: src/data/wild_encounters.json
 
 10/2X/25 - Pre-Badge 6 Wilds
 files: src/data/wild_encounters.json
+- Mirage Tower (all floors) - Land: raised levels
+- New Mauville Entrance - Land: Voltorb 40%, Magnemite 40%, Grimer 20%
+- New Mauville Interior - Land: Voltorb 39%, Magnemite 39%, Grimer 20%, Electrode 1%, Magneton 1%
+- Route 119 - Land: Linoone 30%, Gloom 25%, Ninjask 20%, Vigoroth 15%, Tropius 8%, Kecleon 2%; Surf: Tentacool 60%, Wingull 30%, Pelipper 10%; Fish: Feebas 15% w/ Super Rod (existing method also still works)
+- Route 120 - Land: Linoone 30%, Gloom 25%, Ninjask 20%, Vigoroth 10%, Absol 8%, Surskit 5%, Kecleon 2%; Surf: Marill 60%, Surskit 30%, Azumarill 10%
+- Route 121 - Land: Shuppet 30%, Mightyena 20%, Vulpix 15%, Gloom 15%, Kadabra 10%, Pelipper 8%, Kecleon 2%; Surf: Tentacool 60%, Wingull 30%, Pelipper 10%
+- Route 122 - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%
+- Route 123 - Land: Shuppet 30%, Mightyena 20%, Gloom 15%, Vulpix 10%, Kadabra 10%, Swellow 8%, Surskit 5%, Kecleon 2%; Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fish: (Old) Magikarp 70%, Goldeen 30%, (Good) Magikarp 60%, Goldeen 20%, Corphish 20%, (Super) Corphish 100%
+- Safari Zone South - Land: Gloom 40%, Wobbuffet 30%, Natu 15%, Pikachu 10%, Xatu 5%
+- Safari Zone Southwest - Land: Gloom 40%, Girafarig 30%, Doduo 15%, Pikachu 10%, Dodrio 5%; Surf: Psyduck 90%, Golduck 10%
+- Safari Zone North - Land: Gloom 30%, Xatu 25%, Machoke 20%, Phanpy 15%, Donphan 5%, Heracross 5%; Rock Smash: Geodude 60%, Graveler 40%
+- Safari Zone Northwest - Land: Gloom 30%, Dodrio 25%, Machoke 20%, Rhyhorn 20%, Heracross 5%; Surf: Psyduck 90%, Golduck 10%\
+- Lilycove City - Surf: Tentacool 60%, Wingull 30%, Pelipper 10%;
+
+10/23/25 - commit made
+files: src/data/wild_encounters.json
+- pre-badge 6 wilds
