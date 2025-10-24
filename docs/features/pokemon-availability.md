@@ -31,7 +31,7 @@ This feature will focus on:
 - [X] Pre-Badge 2 Wild Encounter Changes
 - [X] Pre-Badge 3 Wild Encounter Changes
 - [X] Pre-Badge 4 Wild Encounter Changes
-- [ ] Pre-Badge 6 Wild Encounter Changes
+- [X] Pre-Badge 6 Wild Encounter Changes
 - [ ] Pre-Badge 7 Wild Encounter Changes
 - [ ] Pre-Badge 8 Wild Encounter Changes
 - [ ] Pre-League Wild Encounter Changes
@@ -140,3 +140,16 @@ files: src/data/wild_encounters.json
 10/23/25 - commit made
 files: src/data/wild_encounters.json
 - pre-badge 6 wilds
+
+10/23/25 - Pre-Badge 7 Wilds
+files: src/data/wild_encounters.json
+- Mt. Pyre Exterior - Land: Shuppet 40%, Meditite 30%, Vulpix 20%, Wingull 10%
+- Mt. Pyre Summit - Land: Shuppet 85%, Duskull 10%, Chimecho 5%
+- Magma Hideout (non-lava rooms) - Land: Numel 40%, Koffing 30%, Machop 20%, Torkoal 10%; Rock Smash*: Graveler 60%, Magcargo 30%, Geodude 10%; *rock smash mons newly added
+- Magma Hideout (lava rooms) - Land: Numel 20%, Magcargo 30%, Koffing 20%, Torkoal 10%, Camerupt 10%, Slugma 5%
+- Route 124 - Surf: Tentacruel 60%, Pelipper 30%, Tentacool 5%, Wingull 5%; Dive: Clamperl 60%, Lanturn 30%, Chinchou 5%, Relicanth 5%
+- Route 125 - Surf: Tentacruel 60%, Pelipper 30%, Tentacool 5%, Wingull 5%
+- Shoal Cave (main areas) - Sealeo 40%, Golbat 40%, Spheal 10%, Zubat 10%; Surf: Sealeo 60%, Golbat 30%, Spheal 5%, Zubat 5%
+- Shoal Cave (ice room) - Sealeo 40%, Golbat 40%, Snorunt 10%, Spheal 5%, Zubat 5%
+- Route 126 - Surf: Tentacruel 60%, Pelipper 30%, Tentacool 5%, Wingull 5%; Dive: Clamperl 60%, Lanturn 30%, Chinchou 5%, Relicanth 5%
+- Route 127 - Surf: Tentacruel 60%, Pelipper 30%, Tentacool 5%, Wingull 5%
