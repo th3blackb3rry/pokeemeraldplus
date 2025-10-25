@@ -32,7 +32,7 @@ This feature will focus on:
 - [X] Pre-Badge 3 Wild Encounter Changes
 - [X] Pre-Badge 4 Wild Encounter Changes
 - [X] Pre-Badge 6 Wild Encounter Changes
-- [ ] Pre-Badge 7 Wild Encounter Changes
+- [X] Pre-Badge 7 Wild Encounter Changes
 - [ ] Pre-Badge 8 Wild Encounter Changes
 - [ ] Pre-League Wild Encounter Changes
 - [ ] Postgame Wild Encounter Changes
@@ -153,3 +153,24 @@ files: src/data/wild_encounters.json
 - Shoal Cave (ice room) - Sealeo 40%, Golbat 40%, Snorunt 10%, Spheal 5%, Zubat 5%
 - Route 126 - Surf: Tentacruel 60%, Pelipper 30%, Tentacool 5%, Wingull 5%; Dive: Clamperl 60%, Lanturn 30%, Chinchou 5%, Relicanth 5%
 - Route 127 - Surf: Tentacruel 60%, Pelipper 30%, Tentacool 5%, Wingull 5%
+
+10/23/25 - commit made
+files: src/data/wild_encounters.json
+- pre-badge 7 wilds
+
+10/23/25 - Pre-Badge 8 Wilds
+files: src/data/wild_encounters.json
+- Seafloor Cavern (all rooms): Land: Golbat 35%, Graveler 35%, Zubat 10%, Geodude 10%, Sableye 10%
+- Route 128 - Surf: Tentacruel 60%, Pelipper 30%, Tentacool 5%, Wingull 5%
+- Sootopolis City - Surf: adjusted lvls; Fish: (old) Magikarp 100%
+- Cave of Origin (Entrance) - Land: Golbat 40%, Graveler 40%, Zubat 10%, Geodude 10%
+- Cave of Origin (BF1) - Land: Golbat 35%, Graveler 35%, Sableye 30%
+- Route 129 - Surf: Tentacruel 60%, Pelipper 30%, Wingull 5%, Wailord 5%
+- Route 130 - Surf: Tentacruel 60%, Pelipper 30%, Wingull 5%, Wailord 5%
+- Route 131 - Surf: Tentacruel 60%, Pelipper 30%, Wingull 5%, Wailord 5%
+- Pacifidlog Town - Tentacruel 60%, Pelipper 30%, Wingull 5%, Tentacool 5%
+- Sky Pillar 5F - Land: Sableye 30%, Golbat 30%, Claydol 20%, Banette 10%, Dusclops 5%, Altaria 5%
+
+10/23/25 - commit made
+files: src/data/wild_encounters.json
+- pre-badge 8 wilds
