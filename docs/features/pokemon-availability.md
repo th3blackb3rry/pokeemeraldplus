@@ -33,8 +33,8 @@ This feature will focus on:
 - [X] Pre-Badge 4 Wild Encounter Changes
 - [X] Pre-Badge 6 Wild Encounter Changes
 - [X] Pre-Badge 7 Wild Encounter Changes
-- [ ] Pre-Badge 8 Wild Encounter Changes
-- [ ] Pre-League Wild Encounter Changes
+- [X] Pre-Badge 8 Wild Encounter Changes
+- [X] Pre-League Wild Encounter Changes
 - [ ] Postgame Wild Encounter Changes
 - [ ] Item Availabilty Changes
 - [ ] Event Pokemon Changes
@@ -174,3 +174,19 @@ files: src/data/wild_encounters.json
 10/23/25 - commit made
 files: src/data/wild_encounters.json
 - pre-badge 8 wilds
+
+10/24/25 - pre-league wilds
+files: src/data/wild_encounters.json
+- Meteor Falls 1F 2R & B1F 1R - Land: Golbat 30%, Graveler 20%, Solrock 20%, Mawile 15%, Kadabra 10%, Lunatone 5%; Surf: Golbat 90%, Solrock 5%, Lunatone 5%
+- Meteor Falls B1F 2R - Land: Golbat 20%, Graveler 20%, Bagon 20%, Solrock 20%, Mawile 15%, Lunatone 5%
+- Route 132 - Surf: Tentacruel 60%, Pelipper 30%, Wingull 5%, Tentacool 5%
+- Route 133 - Surf: Tentacruel 60%, Pelipper 30%, Wingull 5%, Tentacool 5%
+- Route 134 - Surf: Tentacruel 60%, Pelipper 30%, Wingull 5%, Tentacool 5%
+- Evergrande City - Surf: Tentacruel 60%, Pelipper 30%, Wingull 5%, Tentacool 5%
+- Victory Road 1F - Land: Golbat 30%, Graveler 20%, Loudred 30%, Hariyama 15%, Medicham 5%
+- Victory Road B1F - Land: Golbat 30%, Hariyama 25%, Lairon 25%, Mawile 10%, Medicham 10%; Rock Smash: Graveler 90%, Geodude 10%
+- Victory Road B2F - Land: Golbat 30%, Lairon 30%, Mawile 20%, Medicham 20%;
+
+10/27/25 - commit made
+files: src/data/wild_encounters.json
+- pre-league wilds
