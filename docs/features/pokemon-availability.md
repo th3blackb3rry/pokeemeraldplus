@@ -190,3 +190,17 @@ files: src/data/wild_encounters.json
 10/27/25 - commit made
 files: src/data/wild_encounters.json
 - pre-league wilds
+
+10/27/25 - post-game wilds
+files: src/data/wild_encouters.json
+- Route 123 - Land: Shuppet 30%, Mightyena 20%, Roselia 15%, Vulpix 10%, Kadabra 10%, Swellow 8%, Surskit 5%, Kecleon 2%
+- Altaring Cave - Land: Teddiursa 30%, Swinub 30%, Onix 10%, Gastly 10%, Misdreavus 5%, Tyrogue 10%, Dunsparce 5%; Rock Smash: Geodude 70%, Larvitar 30%
+- Safari Zone Southeast - Land: Hoppip 20%, Mareep 20%, Spinarak 10%, Aipom 10%, Stanler 5%, Snubbull 15%, Hoothoot 15%, Gligar 5%; Surf: 90% Wooper, Quagsire 10%; Fish: (Super) Goldeen 40%, Remoraid 40%, Qwilfish 15%, Octillery 5%
+- Safari Zone Northeast - Land: Sentret 20%, Sunkern 20%, Murkrow 10%, Ledyba 10%, Pineco 15%, Miltank 5%, Houndour 15%, Yanma 5%; Rock Smash: Shuckle 100%
+- Route 130 (Mirage Island) - Land: Treecko 30%, Torchic 30%, Mudkip 30%, Eevee 10%
+files: src/time_events.c
+- Mirage Island now appears permanently once in Hall of Fame
+files: src/field_player_avatar.c
+- No longer have to manually reel in fish
+files: src/pokedex_area_screen.c
+- hide starters and eevee from pokedex area screen
