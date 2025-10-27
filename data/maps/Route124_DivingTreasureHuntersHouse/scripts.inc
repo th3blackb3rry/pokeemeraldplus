@@ -14,10 +14,33 @@ Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter::
 	setflag FLAG_MET_DIVING_TREASURE_HUNTER
 	goto Route124_DivingTreasureHuntersHouse_EventScript_CheckPlayerHasShard
 	end
+	
+Route124_DivingTreasureHuntersHouse_EventScript_Bro::
+	lock
+	faceplayer
+	goto_if_set FLAG_MET_DIVING_TREASURE_BRO, Route124_DivingTreasureHuntersHouse_EventScript_BroSkipGreeting
+	msgbox Route124_DivingTreasureHuntersHouse_Text_BroGreeting, MSGBOX_DEFAULT
+	setflag FLAG_MET_DIVING_TREASURE_BRO
+	goto Route124_DivingTreasureHuntersHouse_EventScript_BroSkipGreeting
+	end
 
 Route124_DivingTreasureHuntersHouse_EventScript_SkipGreeting::
 	msgbox Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards, MSGBOX_DEFAULT
 	goto Route124_DivingTreasureHuntersHouse_EventScript_CheckPlayerHasShard
+	end
+	
+Route124_DivingTreasureHuntersHouse_EventScript_BroSkipGreeting::
+	goto_if_unset FLAG_SYS_GAME_CLEAR, Route124_DivingTreasureHuntersHouse_EventScript_BroWontSellYet
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Route124_DivingTreasureHuntersHouse_PokemartEvoItems
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+	
+Route124_DivingTreasureHuntersHouse_EventScript_BroWontSellYet::
+	msgbox Route124_DivingTreasureHuntersHouse_Text_BroWontSellYet, MSGBOX_DEFAULT
+	release
 	end
 
 Route124_DivingTreasureHuntersHouse_EventScript_CheckPlayerHasShard::
@@ -336,3 +359,31 @@ Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
 	.string "{CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p"
 	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
 	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"
+
+Route124_DivingTreasureHuntersHouse_Text_BroGreeting:
+	.string "Hi! I'm the brother of the DIVING\n"
+	.string "TREASURE HUNTER.\p"
+	.string "I've collected all sorts of curious\n"
+	.string "items and treasures.$"
+	
+Route124_DivingTreasureHuntersHouse_Text_BroWontSellYet:
+	.string "Pardon me, I don't mean to be rude, but\n"
+	.string "I only trade with exceptional trainers.\p"
+	.string "I'll consider showing you my goods if\n"
+	.string "you conquer the POKéMON LEAGUE.$"
+	
+	.align 2
+Route124_DivingTreasureHuntersHouse_PokemartEvoItems:
+	.2byte ITEM_FIRE_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_WATER_STONE
+	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_SUN_STONE
+	.2byte ITEM_MOON_STONE
+	.2byte ITEM_METAL_COAT
+	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_UP_GRADE
+	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_DEEP_SEA_SCALE
+	pokemartlistend

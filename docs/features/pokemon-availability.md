@@ -211,3 +211,23 @@ files: src/data/wild_encouters.json
        src/time_events.c
        src/field_player_avatar.c
        src/pokedex_area_screen.c
+
+10/27/25
+files: src/data/wild_encounters.json
+- increased encounter rate for rock smash
+
+files: src/data/items.h
+- fixed bug where evolution items couldn't be used
+- adjusted prices for evolution items
+
+files: include/constants/flags.h
+- add flag for meeting the Diving Treasure Hunter's brother
+
+files: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
+- Added Diving Treasure Hunter's brother, who sells evolution items in the post-game
+
+10/27/25 - commit made
+files: src/data/wild_encounters.json
+       src/data/items.h
+       data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
+       include/constants/flags.h

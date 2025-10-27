@@ -1174,7 +1174,7 @@ const struct Item gItems[] =
     {
         .name = _("MOON STONE"),
         .itemId = ITEM_MOON_STONE,
-        .price = 0,
+        .price = 2100,
         .description = sMoonStoneDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -2285,13 +2285,13 @@ const struct Item gItems[] =
     {
         .name = _("KING'S ROCK"),
         .itemId = ITEM_KINGS_ROCK,
-        .price = 100,
+        .price = 2100,
         .holdEffect = HOLD_EFFECT_FLINCH,
         .holdEffectParam = 10,
         .description = sKingsRockDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_SILVER_POWDER] =
@@ -2348,24 +2348,24 @@ const struct Item gItems[] =
     {
         .name = _("DEEPSEATOOTH"),
         .itemId = ITEM_DEEP_SEA_TOOTH,
-        .price = 200,
+        .price = 2100,
         .holdEffect = HOLD_EFFECT_DEEP_SEA_TOOTH,
         .description = sDeepSeaToothDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_DEEP_SEA_SCALE] =
     {
         .name = _("DEEPSEASCALE"),
         .itemId = ITEM_DEEP_SEA_SCALE,
-        .price = 200,
+        .price = 2100,
         .holdEffect = HOLD_EFFECT_DEEP_SEA_SCALE,
         .description = sDeepSeaScaleDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_SMOKE_BALL] =
@@ -2433,13 +2433,13 @@ const struct Item gItems[] =
     {
         .name = _("METAL COAT"),
         .itemId = ITEM_METAL_COAT,
-        .price = 100,
+        .price = 2100,
         .holdEffect = HOLD_EFFECT_STEEL_POWER,
         .holdEffectParam = 20,
         .description = sMetalCoatDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_LEFTOVERS] =
@@ -2465,7 +2465,7 @@ const struct Item gItems[] =
         .description = sDragonScaleDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_LIGHT_BALL] =
@@ -2684,7 +2684,7 @@ const struct Item gItems[] =
         .description = sUpGradeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_SHELL_BELL] =
