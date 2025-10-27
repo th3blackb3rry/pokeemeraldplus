@@ -35,7 +35,8 @@ This feature will focus on:
 - [X] Pre-Badge 7 Wild Encounter Changes
 - [X] Pre-Badge 8 Wild Encounter Changes
 - [X] Pre-League Wild Encounter Changes
-- [ ] Postgame Wild Encounter Changes
+- [X] Postgame Wild Encounter Changes
+- [X] Simpler Fishing (FRLG Style)
 - [ ] Item Availabilty Changes
 - [ ] Event Pokemon Changes
 - [ ] In-game trade changes?
@@ -204,3 +205,9 @@ files: src/field_player_avatar.c
 - No longer have to manually reel in fish
 files: src/pokedex_area_screen.c
 - hide starters and eevee from pokedex area screen
+
+10/27/25 - commit made
+files: src/data/wild_encouters.json
+       src/time_events.c
+       src/field_player_avatar.c
+       src/pokedex_area_screen.c
