@@ -374,12 +374,6 @@ Route124_DivingTreasureHuntersHouse_Text_BroWontSellYet:
 	
 	.align 2
 Route124_DivingTreasureHuntersHouse_PokemartEvoItems:
-	.2byte ITEM_FIRE_STONE
-	.2byte ITEM_THUNDER_STONE
-	.2byte ITEM_WATER_STONE
-	.2byte ITEM_LEAF_STONE
-	.2byte ITEM_SUN_STONE
-	.2byte ITEM_MOON_STONE
 	.2byte ITEM_METAL_COAT
 	.2byte ITEM_KINGS_ROCK
 	.2byte ITEM_UP_GRADE

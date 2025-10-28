@@ -430,7 +430,7 @@ AbandonedShip_Rooms2_B1F_EventScript_ItemDiveBall::
 	finditem ITEM_DIVE_BALL
 	end
 
-AbandonedShip_Room_B1F_EventScript_ItemTMIceBeam::
+AbandonedShip_Room_HiddenFloorRooms_EventScript_ItemTMIceBeam::
 	finditem ITEM_TM_ICE_BEAM
 	end
 
@@ -450,7 +450,7 @@ AbandonedShip_HiddenFloorRooms_EventScript_ItemScanner::
 	finditem ITEM_SCANNER
 	end
 
-AbandonedShip_HiddenFloorRooms_EventScript_ItemWaterStone::
+AbandonedShip_Rooms_B1F_EventScript_ItemWaterStone::
 	finditem ITEM_WATER_STONE
 	end
 

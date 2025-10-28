@@ -231,3 +231,23 @@ files: src/data/wild_encounters.json
        src/data/items.h
        data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
        include/constants/flags.h
+- added Diving Treasure Hunter's Brother NPC who sells evolution items in post-game + other tweaks / fixes
+
+10/28/25 - other item availablity changes
+ideas:
+- Add earlier water stone in abandoned ship
+- Add moon and sun stones to Granite Cave
+- Maaybe adjust evo item distro -- keep diving treasure hunter for main elemental stones, add sun / moon seller to space center and keep bro for other evo items
+
+10/28/25 - earlier water stone & other tweaks
+files: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
+- removed evolution stones from diving treasure hunter bro's mart list
+files: data/scripts/item_ball_scripts.inc
+       include/constants/flags.h
+- swapped ice beam tm and water stone in abandoned ship so that stone is available pre-badge 6
+
+10/28/25 - commit made
+files: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
+       data/scripts/item_ball_scripts.inc
+       include/constants/flags.h
+- water stone swapped w/ ice beam tm in abandoned ship; removed stones from diving treasure hunter's inventory
