@@ -37,7 +37,7 @@ This feature will focus on:
 - [X] Pre-League Wild Encounter Changes
 - [X] Postgame Wild Encounter Changes
 - [X] Simpler Fishing (FRLG Style)
-- [ ] Item Availabilty Changes
+- [X] Item Availabilty Changes
 - [ ] Event Pokemon Changes
 - [ ] In-game trade changes?
 
@@ -232,12 +232,6 @@ files: src/data/wild_encounters.json
        data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
        include/constants/flags.h
 - added Diving Treasure Hunter's Brother NPC who sells evolution items in post-game + other tweaks / fixes
-
-10/28/25 - other item availablity changes
-ideas:
-- Add earlier water stone in abandoned ship
-- Add moon and sun stones to Granite Cave
-- Maaybe adjust evo item distro -- keep diving treasure hunter for main elemental stones, add sun / moon seller to space center and keep bro for other evo items
 
 10/28/25 - earlier water stone & other tweaks
 files: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
