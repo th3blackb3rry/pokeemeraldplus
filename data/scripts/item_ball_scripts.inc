@@ -358,6 +358,10 @@ GraniteCave_B1F_EventScript_ItemPokeBall::
 	finditem ITEM_POKE_BALL
 	end
 
+GraniteCave_B1F_EventScript_ItemMoonStone::
+	finditem ITEM_MOON_STONE
+	end
+
 GraniteCave_B2F_EventScript_ItemRepel::
 	finditem ITEM_REPEL
 	end

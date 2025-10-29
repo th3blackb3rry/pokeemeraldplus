@@ -251,3 +251,13 @@ files: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
        data/scripts/item_ball_scripts.inc
        include/constants/flags.h
 - water stone swapped w/ ice beam tm in abandoned ship; removed stones from diving treasure hunter's inventory
+
+10/28/25 - moon and sun stone in granite cave
+files: data/scripts/item_ball_scripts.inc
+       include/constants/flags.h
+- sun & moon stone in granite cave
+
+10/28/25 - commit made
+files: data/scripts/item_ball_scripts.inc
+       include/constants/flags.h
+- sun & moon stone in granite cave
