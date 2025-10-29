@@ -113,7 +113,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_ScientistMagma::
 MossdeepCity_SpaceCenter_2F_EventScript_Gentleman::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_GAME_CLEAR, MossdeepCity_SpaceCenter_2F_EventScript_GentlemanNormal
+	goto_if_set FLAG_SYS_GAME_CLEAR, MossdeepCity_SpaceCenter_2F_EventScript_GentlemanMart
 	goto_if_eq VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_2F_EventScript_GentlemanMagma
 	goto_if_lt VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_2F_EventScript_GentlemanNormal
 	goto MossdeepCity_SpaceCenter_2F_EventScript_GentlemanMagma
@@ -128,6 +128,20 @@ MossdeepCity_SpaceCenter_2F_EventScript_GentlemanMagma::
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis, MSGBOX_DEFAULT
 	release
 	end
+	
+MossdeepCity_SpaceCenter_2F_EventScript_GentlemanMart::
+	message MossdeepCity_SpaceCenter_2F_Text_GentlemanMart
+	waitmessage
+	pokemart MossdeepCity_SpaceCenter_2F_Pokemart_EvoStoneMart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+	
+	.align 2
+MossdeepCity_SpaceCenter_2F_Pokemart_EvoStoneMart:
+	.2byte ITEM_MOON_STONE
+	.2byte ITEM_SUN_STONE
+	pokemartlistend
 
 MossdeepCity_SpaceCenter_2F_EventScript_RichBoy::
 	lock
@@ -505,3 +519,7 @@ MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
 	.string "after this.\p"
 	.string "Oh, yes, I don't live in RUSTBORO CITY.\n"
 	.string "I live right here on this island.$"
+	
+MossdeepCity_SpaceCenter_2F_Text_GentlemanMart:
+	.string "I have rare stones that harness the\n"
+	.string "power of the stars to cause evolution.$"

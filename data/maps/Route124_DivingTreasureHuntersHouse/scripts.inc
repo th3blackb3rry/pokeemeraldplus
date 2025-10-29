@@ -31,7 +31,7 @@ Route124_DivingTreasureHuntersHouse_EventScript_SkipGreeting::
 	
 Route124_DivingTreasureHuntersHouse_EventScript_BroSkipGreeting::
 	goto_if_unset FLAG_SYS_GAME_CLEAR, Route124_DivingTreasureHuntersHouse_EventScript_BroWontSellYet
-	message gText_HowMayIServeYou
+	message Route124_DivingTreasureHuntersHouse_Text_BroWillSell
 	waitmessage
 	pokemart Route124_DivingTreasureHuntersHouse_PokemartEvoItems
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
@@ -371,6 +371,10 @@ Route124_DivingTreasureHuntersHouse_Text_BroWontSellYet:
 	.string "I only trade with exceptional trainers.\p"
 	.string "I'll consider showing you my goods if\n"
 	.string "you conquer the POKéMON LEAGUE.$"
+	
+Route124_DivingTreasureHuntersHouse_Text_BroWillSell:
+	.string "I specialize in rare items and\n"
+	.string "treasures that can cause evolutions.$"
 	
 	.align 2
 Route124_DivingTreasureHuntersHouse_PokemartEvoItems:

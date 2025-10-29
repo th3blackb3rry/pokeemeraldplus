@@ -265,3 +265,8 @@ files: data/scripts/item_ball_scripts.inc
 10/28/25 - commit made
 files: src/data/pokemon/species_info.h
 - made shards more common on wild mons
+
+10/28/25 - commit made
+files: data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc
+       data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
+- added post-game sun & moon stone seller space center & tweaked treasure hunter bros text when selling
