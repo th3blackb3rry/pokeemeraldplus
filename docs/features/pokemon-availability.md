@@ -264,3 +264,9 @@ files: src/data/pokemon/species_info.h
 files: data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc
        data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc
 - added post-game sun & moon stone seller space center & tweaked treasure hunter bros text when selling
+
+10/28/25 - commit made
+files: data/maps/PacifidlogTown_House3/scripts.inc
+       include/constants/trade.h
+       src/data/trade.h
+- pacifidlog trade swapped -- give horsea and get bagon
