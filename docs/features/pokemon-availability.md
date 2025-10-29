@@ -261,3 +261,7 @@ files: data/scripts/item_ball_scripts.inc
 files: data/scripts/item_ball_scripts.inc
        include/constants/flags.h
 - sun & moon stone in granite cave
+
+10/28/25 - commit made
+files: src/data/pokemon/species_info.h
+- made shards more common on wild mons
