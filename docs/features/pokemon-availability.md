@@ -270,3 +270,8 @@ files: data/maps/PacifidlogTown_House3/scripts.inc
        include/constants/trade.h
        src/data/trade.h
 - pacifidlog trade swapped -- give horsea and get bagon
+
+3/24/26 - commit made
+files: src/data/wild_encounters.json
+       src/wild_encounter.c
+- adjusting how Feebas behavior works: removing 15% Super chance, now Feebas encountered 100% on special tiles (was 50%)
