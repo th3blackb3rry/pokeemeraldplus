@@ -275,3 +275,12 @@ files: data/maps/PacifidlogTown_House3/scripts.inc
 files: src/data/wild_encounters.json
        src/wild_encounter.c
 - adjusting how Feebas behavior works: removing 15% Super chance, now Feebas encountered 100% on special tiles (was 50%)
+
+3/28/26
+files: src/data/trades.h
+- fixed mail oversight for Bagon trade
+files: src/data/trades.h
+       include/constants/trade.h
+       data/maps/RustboroCity_House1/scripts.inc
+- changed give Ralts get Seedot trade in Rustboro to give Whismur get Machop
+- also added future story rewrite planning doc
