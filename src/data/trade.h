@@ -1000,11 +1000,11 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_WHISMUR
     },
-    [INGAME_TRADE_PLUSLE] =
+    [INGAME_TRADE_SABLEYE] =
     {
-        .nickname = _("PLUSES"),
-        .species = SPECIES_PLUSLE,
-        .ivs = {4, 4, 4, 5, 5, 4},
+        .nickname = _("GLINT"),
+        .species = SPECIES_SABLEYE,
+        .ivs = {23, 19, 24, 5, 17, 27},
         .abilityNum = 0,
         .otId = 73996,
         .conditions = {5, 5, 30, 5, 5},
@@ -1014,7 +1014,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("ROMAN"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_VOLBEAT
+        .requestedSpecies = SPECIES_SWABLU
     },
     [INGAME_TRADE_BAGON] =
     {
@@ -1088,9 +1088,9 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
         EC_WORD_BE,
         EC_WORD_NICE,
         EC_WORD_TO,
-        EC_POKEMON(PLUSLE),
+        EC_POKEMON(SABLEYE),
         EC_WORD_EXCL,
-        EC_POKEMON(VOLBEAT),
+        EC_POKEMON(SWABLU),
         EC_WORD_WILL,
         EC_WORD_BE,
         EC_WORD_FANTASTIC

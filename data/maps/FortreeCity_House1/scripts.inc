@@ -5,7 +5,7 @@ FortreeCity_House1_EventScript_Trader::
 	lock
 	faceplayer
 	goto_if_set FLAG_FORTREE_NPC_TRADE_COMPLETED, FortreeCity_House1_EventScript_TradeCompleted
-	setvar VAR_0x8008, INGAME_TRADE_PLUSLE
+	setvar VAR_0x8008, INGAME_TRADE_SABLEYE
 	copyvar VAR_0x8004, VAR_0x8008
 	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
 	copyvar VAR_0x8009, VAR_RESULT
@@ -42,7 +42,7 @@ FortreeCity_House1_EventScript_NotRequestedMon::
 	end
 
 FortreeCity_House1_EventScript_TradeCompleted::
-	msgbox FortreeCity_House1_Text_GoingToMakeVolbeatStrong, MSGBOX_DEFAULT
+	msgbox FortreeCity_House1_Text_GoingToBeMaster, MSGBOX_DEFAULT
 	release
 	end
 
@@ -61,32 +61,28 @@ FortreeCity_House1_EventScript_Zigzagoon::
 	end
 
 FortreeCity_House1_Text_YouWillTradeWontYou:
-	.string "Wrooooaaar! I need it!\n"
-	.string "I have to get me a {STR_VAR_1}!\l"
-	.string "I'll do anything for it!\p"
-	.string "…Uh… Did you hear that?\n"
-	.string "My shout from the bottom of my heart?\p"
-	.string "Having heard that, you will trade\n"
-	.string "your {STR_VAR_1} for my {STR_VAR_2},\l"
-	.string "won't you?$"
+	.string "I think WINONA is so cool for\n"
+	.string "mastering BIRD POKéMON.\p"
+	.string "I want a BIRD POKéMON of my own.\p"
+	.string "Do you have a {STR_VAR_1}?\n"
+	.string "You'll trade for my {STR_VAR_2}, right?$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
-	.string "Oh, yeah, right on!\p"
-	.string "{STR_VAR_1}, welcome!\n"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "Awesome!\p"
+	.string "Now I can be a BIRD POKéMON\n"
+	.string "master like WINONA.$"
 
 FortreeCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "Wait a minute!\p"
+	.string "That isn't what I asked for!$"
 
 FortreeCity_House1_Text_YouWontTradeMe:
-	.string "No? You won't trade me?\n"
-	.string "Even after I bared my heart to you?$"
+	.string "Aw man...\p"
+	.string "How will I get a BIRD POKéMON now?$"
 
-FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-	.string "I'm going to make VOLBEAT super\n"
-	.string "strong from this moment on!\p"
-	.string "I hope you do the same with PLUSLE!$"
+FortreeCity_House1_Text_GoingToBeMaster:
+	.string "Now that I have a BIRD POKéMON,\n"
+	.string "I can fly around freely!$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
 	.string "Trading POKéMON with others…\p"
