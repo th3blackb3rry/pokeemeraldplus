@@ -10,6 +10,7 @@
 #define INGAME_TRADE_BAGON      2
 #define INGAME_TRADE_MEOWTH     3
 #define INGAME_TRADE_CHINCHOU   4
+#define INGAME_TRADE_SNORUNT    5
 
 // Return values for CanTradeSelectedMon and CanSpinTradeMon
 #define CAN_TRADE_MON              0

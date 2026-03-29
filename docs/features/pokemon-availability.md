@@ -89,7 +89,7 @@ files: src/data/wild_encounters.json
 files: src/data/wild_encounters.json
 - Petalburg Woods - Land: Wurmple 25%, Zigzagoon 20%, Shroomish 15%, Taillow 15%, Silcoon 10%, Cascoon 10%, Slakoth 5%
 - Route 112 - Land: Numel 40%, Machop 20%, Sandshrew 20%, Taillow 10%, Meditite 10%; Rock Smash*: Geodude 60%, Slugma 30%, Graveler 10%; *Rock Smash mons newly added
-- Fiery Patth - Land: Numel 40%, Koffing 30%, Machop 20%, Torkoal 10%; Rock Smash*: Geodude 60%, Slugma 30%, Graveler 10%; *Rock Smash mons newly added
+- Fiery Path - Land: Numel 40%, Koffing 30%, Machop 20%, Torkoal 10%; Rock Smash*: Geodude 60%, Slugma 30%, Graveler 10%; *Rock Smash mons newly added
 - Route 113 - Land: Spinda 70%, Sandshrew 25%, Skarmory 5%
 - Route 114 - Land: Swablu 40%, Lombre 20%, Nuzleaf 20%, Seviper 15%, Surskit 5%; Rock Smash*: Geodude 90%, Graveler 10%; Surf: Marill 60%, Surskit 30%, Azumarill 10%; Fish: good rod levels max at 25; *increased encounter rate for Rock Smash
 - Meteor Falls 1F 1R: Land: Zubat 30%, Geodude 20%, Solrock 20%, Mawile 15%, Kadabra 10%, Lunatone 5%; Surf: Zubat 90%, Solrock 5%, Lunatone 5%; Fish: good rod levels max at 25
@@ -292,3 +292,13 @@ files: include/constants/flags.h
        data/maps/SlateportCity_House/map.json
        data/maps/SlateportCity_House/scripts.inc
 - added in-game trade in Slateport: give Voltorb and get Chinchou
+
+3/29/26
+files: include/constants/flags.h
+       include/constants/trade.h
+       src/data/trade.h
+       data/maps/VerdanturfTown_PokemonCenter_1F/map.json
+       data/maps/VerdanturfTown_PokemonCenter_1F/scripts.inc
+implement in-game trade in Verdanturf: give Meditite and get Snorunt
+files: data/maps/SlateportCity_House/map.json
+changed sprite for Slateport trade NPC
